@@ -15,7 +15,7 @@ e) Node.js + npm – For package management and running the React app
 To run the project locally:
 
 a)Clone the repository
-git clone https://github.com/your-username/newproject.git
+git clone https://github.com/Deepakkandpalabd/hello-angular
 
 b) Navigate to project directory
 cd newproject
