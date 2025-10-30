@@ -1,0 +1,102 @@
+.chat-preview-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-preview-heading {
+  max-width: 700px;
+  margin-bottom: 60px;
+}
+
+.chat-preview-heading h2 {
+  color: #0a1b57;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 18px;
+}
+
+.chat-preview-heading p {
+  color: #7a7a95;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* ===== Card ===== */
+.chat-preview-card {
+  background: #f9f9fb;
+  border-radius: 30px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card-title {
+  color: #0a1b57;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+}
+
+.card-list li {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  color: #0a1b57;
+  border-bottom: 1px solid #e3e6f0;
+  padding: 14px 0;
+  font-size: 1rem;
+}
+
+.card-icon {
+  color: #0a1b57;
+  font-size: 1.1rem;
+}
+
+.chat-start-btn {
+  background-color: #2e59ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 30px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.chat-start-btn:hover {
+  background-color: #1c3cd6;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .chat-preview-section {
+    padding: 80px 25px;
+  }
+
+  .chat-preview-heading h2 {
+    font-size: 1.9rem;
+  }
+
+  .chat-preview-heading p {
+    font-size: 1rem;
+  }
+
+  .chat-preview-card {
+    max-width: 350px;
+    padding: 35px 25px;
+  }
+}

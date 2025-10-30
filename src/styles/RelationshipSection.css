@@ -1,0 +1,68 @@
+.relationship-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem;
+  background-color: #fff;
+}
+
+.relationship-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.relationship-content h2 {
+  font-size: 2rem;
+  color: #0a0a23;
+}
+
+.relationship-content p {
+  color: #6c6c80;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.relationship-card {
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.chat-bubble {
+  background: #f3f5ff;
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+
+.lesson-box {
+  background: linear-gradient(to right, #0044ff, #3ea9ff);
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  color: #fff; /* ensures all text inside is white */
+  text-align: left;
+}
+
+.lesson-box h5 {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+  opacity: 0.8;
+  color: #ffffffcc; /* optional: slightly lighter white */
+}
+
+.lesson-box p {
+  color: #fff; /* explicitly make this white */
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
